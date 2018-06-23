@@ -26,7 +26,13 @@ module.exports = {
 	  .clearValue('/html/body/div[1]/div[7]/div[2]/div[2]/div/div/div/div[2]/div/div/div[6]/div/div/div[1]/div/div/input[2]')
 	  .setValue('/html/body/div[1]/div[7]/div[2]/div[2]/div/div/div/div[2]/div/div/div[6]/div/div/div[1]/div/div/input[2]', '4000')
 	  .click("//div[contains(@class, 'Применить')]", function(result) {
-		this.asset.containsText("//a[@class='products-list-item__size-item link']", "39")  
+		  .getValue("//span[@class='price']", function(res) {
+			if (res >= 1000 && res <= 4000) {
+				return true;
+			} else {
+				return false;
+			}
+        });
 	  })
       .end();
   }
