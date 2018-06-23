@@ -1,0 +1,27 @@
+{
+  "name": "ui-test-lamoda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "globals.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chromedriver": "^2.40.0",
+    "nightwatch": "^0.9.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RozaGalstyan/ui-test-lamoda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RozaGalstyan/ui-test-lamoda/issues"
+  },
+  "homepage": "https://github.com/RozaGalstyan/ui-test-lamoda#readme"
+}

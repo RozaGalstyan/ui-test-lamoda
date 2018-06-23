@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="ya"
+    errors="1" failures="0" hostname="" id="" package="ya" skipped="0"
+    tests="1" time="0.09000" timestamp="Fri, 22 Jun 2018 15:39:10 GMT">
+  
+    <testcase name="Test lamoda.ru" classname="ya" time="0.09000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Ya / Test lamoda.ru]:
+
+  TypeError: browser.url(...).waitForElementVisible(...).get is not a function
+    at Object.Test lamoda.ru (C:\Users\Roza\Documents\lamoda_test\ui-test-lamoda\tests\ya.js:10:5)
+    at Module.call (C:\Users\Roza\Documents\lamoda_test\ui-test-lamoda\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Roza\Documents\lamoda_test\ui-test-lamoda\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Roza\Documents\lamoda_test\ui-test-lamoda\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Roza\Documents\lamoda_test\ui-test-lamoda\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Roza\Documents\lamoda_test\ui-test-lamoda\node_modules\q\q.js:796:13)
+    at C:\Users\Roza\Documents\lamoda_test\ui-test-lamoda\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Roza\Documents\lamoda_test\ui-test-lamoda\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Roza\Documents\lamoda_test\ui-test-lamoda\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
